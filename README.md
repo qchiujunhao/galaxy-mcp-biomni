@@ -23,7 +23,15 @@ This repository provides a quick setup to connect Biomni with an MCP-enabled Gal
    pip install -r requirements.txt
    ```
 
-4. **Edit the `.env` file** with your Galaxy URL and API key.
+4. **Copy and edit config files**
+```bash
+cp .env.example .env
+cp mcp_config.yaml.example mcp_config.yaml
+```
+
+- Fill in your Galaxy URL and API key inside .env.
+- Update mcp_config.yaml if needed.
+
 
 5. **Run Biomni in shell or notebook (There’s an example notebook in this repo.)**
    ```python
