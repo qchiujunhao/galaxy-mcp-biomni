@@ -19,3 +19,5 @@ sqlalchemy
 langgraph
 nest_asyncio
 mcp
+galaxy-mcp
+scikit-learn
